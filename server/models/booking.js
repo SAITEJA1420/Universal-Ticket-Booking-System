@@ -3,6 +3,7 @@ import sequelize from '../config/database.js';
 import User from './user.js';
 import Event from './event.js';
 
+// Just commented normally to do something..
 const Booking = sequelize.define('Booking', {
   id: {
     type: DataTypes.INTEGER,
